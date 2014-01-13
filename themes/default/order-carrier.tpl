@@ -154,6 +154,7 @@
 										<div class="delivery_option_delay">{$carrier.instance->delay[$cookie->id_lang]}</div>
 									{/if}
 								{/if}
+								<!--
 								{if count($option_list) > 1}
 									{if $option.is_best_grade}
 										{if $option.is_best_price}
@@ -167,6 +168,7 @@
 										{/if}
 									{/if}
 								{/if}
+								-->
 								</td>
 								<td>
 								<div class="delivery_option_price">
